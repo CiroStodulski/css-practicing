@@ -13,41 +13,77 @@
 
 <body>
 
-    <header>
-        <h1>Titulo </h1>
-        <nav>
-            <button>abrir/fecha</button>
-            <ul>
+    <header class="cabecalho">
+        <h1 class="logo">Titulo </h1>
+        <nav class="menu-principal">
+            <button class="menu-principal__btn menu-principal__btn--fechar">abrir/fecha</button>
+            <ul class="menu-principal__lista">
                 <li>
-                    <a href="index.html">Home</a>
+                    <a class="menu-principal__item menu-principal__item--atual" href="index.html">Home</a>
                 </li>
-            </ul>
-            <ul>
                 <li>
-                    <a href="sobre.html">Sobre</a>
+                    <a class="menu-principal__item" href="sobre.html">Sobre</a>
                 </li>
-            </ul>
-            <ul>
                 <li>
-                    <a href="portifolio.html">Portifolio</a>
+                    <a class="menu-principal__item" href="portifolio.html">Portifolio</a>
                 </li>
-            </ul>
-            <ul>
                 <li>
-                    <a href="contato.html">Contato</a>
+                    <a class="menu-principal__item" href="contato.html">Contato</a>
                 </li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <h1>Conteudo principal</h1>
+        <header>
+            <h2>Texto grande aqui</h2>
+            <p>testo menor aqui</p>
+            <a href="#servicos">role para ver mais</a>
+        </header>
+        <section id="servicos">
+            <h2>O que fazemos</h2>
+            <section>
+                <img src="img/icone-desenvolvimento-web.png" alt="icone planeta terra">
+                <h3>desenvolvimento web</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum ex a nunc fermentum congue. Aliquam
+                    dignissim pulvinar arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. </p>
+            </section>
+        </section>
+        <section>
+            <img src="img/icone-carrinho-compras.png" alt="icone carrinho de compras">
+            <h3>E-coomerce</h3>
+            <p>
+                In hac habitasse platea dictumst. Proin ut pellentesque mauris. Nunc in varius justo. Phasellus vulputate ut neque non auctor.
+                Fusce vitae urna egestas, finibus ante non, laoreet nunc.
+            </p>
+        </section>
+        <section>
+            <img src="img/icone-cafe.png" alt="icone xicara de cafe">
+            <h3>Cafe</h3>
+            <p>
+                Aliquam ac lorem sapien. Nullam suscipit purus vel erat aliquam scelerisque. Aenean sed turpis a nibh laoreet iaculis a et
+                nulla. Aenean at felis ex. Nulla ut dui aliquet, fermentum massa vitae, accumsan erat.
+            </p>
+        </section>
+        <section>
+            <h2>O que falam de nos</h2>
+            <section>
+                <img src="img/depoimentos/pessoa-1.jpg" alt="foto da pessoa de depoimento">
+                <p>
+                    Phasellus dapibus sapien et est blandit, ornare interdum arcu iaculis. Vestibulum placerat ex sit amet erat mattis bibendum.
+                    Mauris non mi augue.
+                </p>
+                <p>
+                    Nome da pessoa - cargo
+                </p>
+            </section>
+        </section>
     </main>
 
     <footer>
         <div>
             <div>
-                <a href="index.html">Desing responsivo</a>
+                <a href="index.html" class="logo">Desing responsivo</a>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic laudantium reprehenderit ipsum consequatur eveniet aut quae
                     veniam aspernatur laborum numquam ullam ad error, pariatur fugit voluptates facilis unde doloremque aperiam.
