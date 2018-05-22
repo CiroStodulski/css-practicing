@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-pagina.css">
+    <link rel="stylesheet" href="css/style-contato.css">
     <title>Empresa</title>
 
 </head>
@@ -35,36 +37,36 @@
     </header>
 
     <main>
-        <header>
-            <h1>Contato</h1>
+        <header class="pagina-cabecalho">
+            <h1 class="pagina-cabecalho__titulo">Contato</h1>
         </header>
-        <section>
-            <p>
+        <section class="pagina-conteudo">
+            <p class="text-center">
                 Suspendisse convallis, turpis vitae placerat luctus, est felis dictum augue.
             </p>
-            <form action="#">
-                <div>
-                    <label for="nome">Nome</label>
+            <form action="#" class="formulario">
+                <div class="formulario__grupo">
+                    <label class="formulario__label" for="nome">Nome</label>
                     <br>
-                    <input id="text" type="text" name="nome">
+                    <input class="formulario__campo"id="text" type="text" name="nome">
                 </div>
-                <div>
-                    <label for="email">E-mail</label>
+                <div class="formulario__grupo">
+                    <label class="formulario__label" for="email">E-mail</label>
                     <br>
-                    <input id="email" type="email" name="email">
+                    <input class="formulario__campo"i id="email" type="email" name="email">
                 </div>
-                <div>
-                    <label for="mensagem">mensagem</label>
+                <div class="formulario__grupo">
+                    <label class="formulario__label" for="mensagem">mensagem</label>
                     <br>
-                    <textarea type="mensagem" name="mensagem" cols="30" rows="10"></textarea>
+                    <textarea class="formulario__campo"i type="mensagem" name="mensagem" cols="30" rows="10"></textarea>
                 </div>
-                <input type="submit" value="enviar">
+                <input type="submit" class="formulario__botao" value="enviar">
             </form>
             <p>
                 Maecenas facilisis volutpat ipsum, sed faucibus tortor aliquam non. Aliquam erat volutpat. Vivamus cursus pulvinar
                 <br> turpis, nec blandit augue maximus ac.
             </p>
-            <div>
+            <div class="mapa">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d36893.84283596976!2d-51.12158191938315!3d-30.01120827770555!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1526434983629"
                     width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
@@ -103,15 +105,15 @@
                     <li>
                         <a class="rodape__lista-links__item" href="index.html">Home</a>
                     </li>
-               
+
                     <li>
                         <a class="rodape__lista-links__item" href="sobre.html">Sobre</a>
                     </li>
-        
+
                     <li>
                         <a class="rodape__lista-links__item" href="portifolio.html">Portifolio</a>
                     </li>
-         
+
                     <li>
                         <a class="rodape__lista-links__item" href="contato.html">Contato</a>
                     </li>
